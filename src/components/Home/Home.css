@@ -1,0 +1,45 @@
+@media (max-width: 800px) {
+    .home-container {
+        padding-left: 2.5%;
+        padding-right: 2.5%;    
+    }
+    .h2question {
+        font-size: 2rem;
+    }
+    .home-container::before {
+        height: 40vw;
+    }    
+}
+
+@media (min-width: 800px) {
+    .home-container {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .h2question {
+        font-size: 3vw;
+    }
+    .home-container::before {
+        height: 27vw;
+    }
+    
+}
+
+.home-container {
+    position: relative;
+}
+.home-container::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100%;
+    background-color: #007ddf;
+}
+
+.h2question {
+    margin: 2.5%;
+    padding-top: 2.5%;
+    font-weight: 400;
+    color: #004682;
+}

@@ -1,0 +1,93 @@
+@media (max-width: 800px) {
+    .service-container {
+        padding: 0;
+    }
+    .service-list {
+        text-align: left;
+        list-style: none;
+        padding: 0%;
+    }
+    .service-request {
+        display: none;
+    }
+    .service-list li div button {
+        width: 45px;
+    }
+}
+@media (min-width: 800px) {
+    .service-container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .service-list {
+        text-align: left;
+        list-style: none;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding: 0%;
+    }
+    .service-request {
+        display: flex;
+    }
+    .service-list li div button {
+        width: auto;
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+.service-list {
+    text-align: left;
+    list-style: none;
+    padding-bottom: 5%;
+    margin-bottom: 0;
+    background-color: #cfcfcf;
+}
+.service-title {
+    text-align: center;
+    background-color: white;
+    color: #004682;
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding-bottom: 5%;
+}
+
+.service-list li {
+    margin-top: 1.5%;
+    width: 90%;
+    margin-left: 5%;
+}
+.service-list li div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #fff;
+}
+.service-list li div button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5%;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #e96901;
+    cursor: pointer;
+    border: 0;
+}
+.service-list li div button:hover {
+    background-color: #cc5201;
+}
+.service-list li div p {
+    color: #4a99be;
+    padding: 2.5%;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.service-request-btn {
+    text-decoration: none;
+}

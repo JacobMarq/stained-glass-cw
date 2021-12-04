@@ -1,0 +1,75 @@
+.contact-btn {
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-color: #e96901;
+    cursor: pointer;
+    border: 0;
+}
+.contact-btn:hover {
+    background-color: #cc5201;
+}
+
+@media (max-width: 800px) {
+    .contact-cards {
+        padding-left: 5%;
+        padding-right: 5%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contact-cards::before {
+        top: 10%;
+        left: -10%;
+        height: 90%;
+        width: 115%;
+        background-color: #cfcfcf;
+    }
+}
+
+@media (min-width: 800px) {
+    .contact-cards {
+        padding-left: 15%;
+        padding-right: 15%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .contact-cards::before {
+        top: 70%;
+        width: 50%;
+        border-bottom: 10vw solid #cfcfcf !important;
+        border-left: 10vw solid transparent !important;
+        border-right: 10vw solid transparent !important;
+    }
+}
+
+.contact-cards {
+    display: flex;
+    position: relative;
+    margin-bottom: 5%;
+}
+.contact-cards::before {
+    content: '';
+    position: absolute;
+}
+.mt-5 {
+    margin-top: 5%;
+}
+.mb-5 {
+    margin-bottom: 5%;
+}
+.mb-7-5 {
+    margin-bottom: 7.5%;
+}
+.h1question {
+    font-weight: 400;
+    color: #004682;
+}

@@ -1,0 +1,114 @@
+@media (max-width: 800px) {
+    .card-deck {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card-deck::before {
+        top: 10%;
+        left: -10%;
+        height: 90%;
+        width: 115%;
+        background-color: #cfcfcf;
+    }
+    .card {
+        max-width: 60%;
+        margin: auto;
+    }
+    .card-title {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .card-desc {
+        font-weight: 400;
+        font-size: 1rem;
+        margin-top: 10%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+    }
+    .card-btn {
+        font-weight: 500;
+        font-size: 1rem;
+        margin-bottom: 10%;
+    }
+}
+
+@media (min-width: 800px) {
+    .card-deck {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .card-deck::before {
+        top: 70%;
+        width: 85%;
+        border-bottom: 12.5vw solid #cfcfcf !important;
+        border-left: 10vw solid transparent !important;
+        border-right: 10vw solid transparent !important;
+    }
+    .card {
+        max-width: 31%
+    }
+    .card-title {
+        font-weight: 400;
+        font-size: 1.8vw;
+    }
+    .card-desc {
+        font-weight: 300;
+        font-size: 1.5vw;
+    }
+    .card-btn {
+        font-weight: 400;
+        font-size: 1.5vw;
+        margin-bottom: 5%;
+    }
+}
+
+.card-deck {
+    display: flex;
+    position: relative;
+}
+.card-deck::before {
+    content: '';
+    position: absolute;
+}
+.card {
+    border-radius: 10px;
+    border-top: #004682 2px solid;
+    border-bottom: 5px solid #004682;
+    display: flex;
+    margin-bottom: 5%;
+    background-color: #fff;
+    z-index: 9;
+}
+.card-icon {
+    width: 75%;
+}
+.card-title {
+    margin: 0;
+    text-align: center;
+    color: #004682;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #666;
+    justify-content: space-between;
+    margin: 5%;
+}
+.card-desc {
+    text-align: center;
+}
+.card-btn {
+    padding: 4%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    border-radius: 50px;
+    background-color: #e96901;
+    color: #ffff;
+    text-decoration: none;
+    transition: ease-in-out .2s all;
+}
+.card-btn:hover {
+    background-color: #cc5201;
+}

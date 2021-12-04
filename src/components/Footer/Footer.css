@@ -1,0 +1,103 @@
+@media (max-width: 800px) {
+    .footer-cta {
+        font-weight: 500;
+        font-size: 1.2rem;
+        padding: 2%;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        border-radius: 50px;
+    }
+    .foot-cta-quote {
+        font-weight: 300;
+        font-size: 1.5rem;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .footer-column-one ul li {
+        font-size: .9rem;
+    }
+}
+@media (min-width: 800px) {
+    .footer-cta {
+        font-weight: 400;
+        font-size: 1.5vw;
+        padding: 15px;
+        padding-left: 8%;
+        padding-right: 8%;
+        border-radius: 50px;
+    }
+    .foot-cta-quote {
+        font-weight: 300;
+        font-size: 2vw;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .footer-column-one ul li {
+        font-size: .9rem;
+    }
+}
+
+.foot-panel {
+    display: block;
+    justify-content: end;
+    width: 100%;
+    background-color: #cfcfcf;
+    /* background-color: #007edfbb; */
+    margin-top: auto;
+    bottom: 0;
+}
+.foot-cta-bar {
+    border-top: #cfcfcf solid 30px;
+    background-color: #ffff;
+    padding-bottom: 2.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot-cta-quote {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+.footer-cta {
+    background-color: #007ab9;
+    color: #ffff;
+    text-decoration: none;
+    transition: ease-in-out .2s all;
+}
+.footer-cta:hover {
+    background-color: #004682;
+}
+.footer-row {
+    padding-left: 15%;
+    flex-direction: row;
+}
+.footer-column-one {
+    color: #000;
+    flex-direction: column;
+    text-align: left;
+}
+.footer-column-one ul {
+    margin: 0;
+    border-top: #ffff 4px solid;
+    padding-bottom: 5%;
+    padding-left: 0;
+}
+.footer-column-one ul li {
+    color: #000;
+    font-weight: 400;
+    padding-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+.footer-column-one ul li a {
+    color: #000;
+}
+.footer-icon {
+    width: 12vmin;
+    margin-top: 5%;
+    margin-left: 0;
+    margin-bottom: 5px;
+    border: solid 2px black;
+}

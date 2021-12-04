@@ -1,38 +1,207 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.layered-shadow {
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.14),
+              0px 2px 2px rgba(0,0,0,0.14),
+              0px 4px 4px rgba(0,0,0,0.14),
+              0px 8px 8px rgba(0,0,0,0.14);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.unselectable {
+  user-select: none;
+}
+
+.mb-0 {
+  margin-bottom: 0% !important;
+}
+.mt-0 {
+  margin-top: 0% !important;
+}
+.mt-2-5 {
+  margin-top: 2.5% !important;
+}
+.mb-2-5 {
+  margin-bottom: 2.5% !important;
+}
+.brand-name-color {
+  color: #007ab9;
+}
+
+/* =============================================
+<--------------- NavBar (start) ---------------> 
+==============================================*/
+
+@media (max-width: 800px) {
+  .nav-wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffff;
+    z-index: 999;
+  }
+
+  .navbar {
+    background-color: #ffff;
+    justify-content: space-evenly;
+    padding-left: 5%;
+    padding-right: 8%;
+  }
+
+  .nav-logo-icon-scale {
+    display: none;
+  }
+  .nav-logo-text-scale {
+    display: none;
+  }
+  .nav-logo-mobile {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin: auto;
+    height: 17.5vmax;
+    width: 30vmax;
+  }
+  
+  .navbar li {
+    margin-right: 5%;
+  }
+  .nav-link {
+    display: none;
+  }
+  .nav-link.active {
+    display: none;
+  }
+  .cta {
+    width: 100%;
+    padding: 10%;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+  }
+
+  .app-container {
+    margin-top: 35vmax;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (min-width: 800px) {
+  .navbar {
+    padding-left: 15%;
+    padding-right: 17%;
+  }
+
+  .nav-logo-icon-scale {
+    display: inline;
+  }
+  .nav-logo-text-scale {
+    display: inline;
+  }
+  .nav-logo-mobile {
+    display: none;
+  }
+  .nav-logo {
+    margin-right: auto;
+  }
+
+  .cta {
+    font-weight: 400;
+    font-size: 1.5vw;
+    padding: 10%;
+    width: 100%;
+  }
+}
+
+.navbar {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  list-style: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 999;
+}
+.nav-logo-icon-scale {
+  height: 4.5vmax;
+  width: 5vmax;
+  margin-right: 10px;
+}
+.nav-logo-text-scale {
+  height: 4.5vmax;
+  width: 20vmax;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link {
+  margin-left: 1vw;
+  margin-right: 1.5vw;
+  font-weight: 300;
+  font-size: 1.4vmax;
+  text-decoration: none;
+  color: rgb(82, 82, 82);
+  position: relative;
+}
+.nav-link::after{
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  right: 50%;
+  background-color: transparent;
+  height: 2px;
+  width: 3px;
+}
+.nav-link:hover {
+  color: #004682;
+}
+.nav-link:hover::after {
+  left: 5%;
+  right: 0;
+  background-color: #004682;
+  width: 92%;
+  transition: ease-in-out .3s;
+  -webkit-transition: ease-in-out .3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cta {
+  display: flex;
+  border-radius: 50px;
+  background-color: #007ab9;
+  color: #ffff;
+  text-decoration: none;
+  transition: ease-in-out .2s all;
 }
+.cta:hover {
+  background-color: #004682;
+}
+
+/* 
+<--------------- active nav link ---------------> 
+*/
+
+.nav-link.active {
+  color: #004682;
+}
+.nav-link.active:hover{
+  color: #004682;
+  cursor: default;
+}
+.nav-link.active::after{
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 5%;
+  right: 0;
+  background-color: #004682;
+  height: 2px;
+  width: 92%;
+}
+
+/* =============================================
+<--------------- NavBar ( end ) ---------------> 
+==============================================*/

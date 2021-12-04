@@ -1,0 +1,45 @@
+@media (max-width: 800px) {
+    .gallery-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .my-masonry-grid {
+        padding-left: 2.5%;
+    }
+    .gallery-img {
+        width: 90%;
+    }
+}
+@media (min-width: 800px) {
+    .gallery-container {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .my-masonry-grid {
+        padding-left: 1.5%;
+    }
+    .gallery-img {
+        width: 25vw;
+    }
+}
+.my-masonry-grid {
+    display: flex;
+    background-color: #cfcfcf;
+    padding-top: 5%;
+    box-sizing: border-box;
+}
+
+.my-masonry-grid-column {
+    background-clip: padding-box;
+}
+
+.my-masonry-grid-column > .gallery-img {
+    background: grey;
+    margin-bottom: 5%;
+}
+
+.gallery-img {
+    border-radius: 5px;
+    display: flex;
+    height: fit-content;
+}

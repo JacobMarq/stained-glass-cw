@@ -1,0 +1,91 @@
+@media (max-width: 800px) {
+    .carousel-btn {
+        width: 7.5%;
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 800px) {
+    .carousel-btn {
+        width: 5.5%;
+        font-size: 3rem;
+    }
+}
+
+div div .styles-image {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50vw;
+    height: 30vw;
+    background-size: contain;
+}
+.slide-container {
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+}
+.carousel {
+    position: relative;
+    margin-bottom: 10%;
+}
+.carousel-btn {
+    color: #cfcfcf;
+    background-color: transparent;
+}
+.carousel-btn:disabled {
+    color: transparent;
+    background-color: transparent;
+    cursor: default;
+}
+.carousel-btn:disabled:hover {
+    color: transparent;
+    background-color: transparent;
+}
+.carousel-btn:hover {
+    color: white;
+    background-color: #cfcfcf;
+}
+
+.carousel-back-btn {
+    position: absolute;
+    top: 25%;
+    display: block;
+    height: 50%;
+    border: none;
+}
+
+.carousel-next-btn {
+    position: absolute;
+    top: 25%;
+    right: 0%;
+    display: block;
+    height: 50%;
+    border: none;
+}
+.carousel-dots button {
+    background-color: #888;
+    border-color: transparent !important;
+    margin: 1px;
+    border-radius: 0%;
+    width: 9.5%;
+    height: 10px;
+}
+.carousel-dots button:disabled {
+    background-color: #cfcfcf !important;
+}
+.carousel-dots button:hover {
+    background-color: #aaa !important;
+}
+.mb-0 {
+    margin-bottom: 0% !important;
+}
+.mt-0 {
+    margin-top: 0% !important;
+}
+.mt-2-5 {
+    margin-top: 2.5% !important;
+}
+.mb-2-5 {
+    margin-bottom: 2.5% !important;
+}

@@ -1,0 +1,79 @@
+@media (max-width: 800px) {
+    #contact-form {
+        max-width: 100%;
+    }
+    .contact-btn {
+        justify-self: center;
+        margin: auto;
+        width: 65%;
+    }
+    .message-form-card {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media (min-width: 800px) {
+    #contact-form {
+        max-width: 50%;
+    }
+    .contact-btn {
+        justify-self: center;
+        margin: auto;
+        width: 60%;
+    }
+    .message-form-card {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+.message-form-card {
+    margin-top: 7.5%;
+    margin-bottom: 5%;
+}
+.message-status {
+    font-size: 1rem;
+    color: rgb(177, 0, 0);
+    background-color: rgba(255, 100, 100, 0.466);
+    border-radius: 15px;
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.text-under-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+}
+.input-label {
+    margin-top: 5px;
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+}
+.input-alert {
+    text-align: left;
+    font-size: 1rem;
+    color: rgb(177, 0, 0);
+}
+.char-limit {
+    margin: 0%;
+    max-width: 20%;
+    text-align: right;
+}
+.message-block {
+    width: 100%;
+    height: 32.5vh;
+}

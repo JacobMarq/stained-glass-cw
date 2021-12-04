@@ -1,0 +1,80 @@
+@media (max-width: 800px) {
+    .about-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .about-card {
+        max-width: 90%;
+        padding: 5%;
+    }
+    .about-header {
+        font-size: 1.5rem;
+    }
+    .about-subhead {
+        font-size: .9rem;
+    }
+    .about-container::before {
+        height: 65vw;
+    }
+}
+
+@media (min-width: 800px) {
+    .about-container {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .about-card {
+        max-width: 60%;
+        padding: 5%;
+    }
+    .about-header {
+        font-size: 3vw;
+    }
+    .about-subhead {
+        font-size: 1.5vw;
+    }
+    .about-desc {
+        font-size: 1.7vw;
+    }
+    .about-container::before {
+        height: 35vw;
+    }
+}
+
+.about-container {
+    text-align: left;
+    position: relative;
+}
+.about-container::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100%;
+    background-color: #007ddf;
+    z-index: -1;
+}
+.about-card {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    background-color: #ffff;
+    border-radius: 10px;
+    border-top: #004682 2px solid;
+    border-bottom: 5px solid #004682;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.about-header {
+    color: #004682;
+    margin-bottom: 0%;
+}
+.about-subhead {
+    margin-top: 0%;
+    color: #004682;
+}
+.about-desc {
+    border-top: solid 2.5px #cfcfcf;
+    padding-top: 5%;
+}
