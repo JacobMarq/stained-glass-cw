@@ -47,7 +47,7 @@ const MessageForm = props => {
                     
                     <input type='hidden' name='contact_number' value={contactNumber} />
 
-                    <div className='input-container mb-5'>
+                    <div className='input-container mb-2-5'>
                         <p className='input-label'>Full Name: </p>
                         <div className='input-wrapper'>
                             <input 
@@ -64,7 +64,7 @@ const MessageForm = props => {
                     </div>
                     <br/>
                     
-                    <div className='input-container mb-5'>
+                    <div className='input-container mb-2-5'>
                         <p className='input-label'>Email: </p>
                         <div className='input-wrapper'>
                             <input 
@@ -80,7 +80,7 @@ const MessageForm = props => {
                     </div>
                     <br/>
 
-                    <div className='input-container mb-5'>
+                    <div className='input-container mb-2-5'>
                         <p className='input-label'>Main Phone: </p>
                         <div className='input-wrapper'>
                             <input 

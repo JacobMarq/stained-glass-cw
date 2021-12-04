@@ -15,13 +15,3 @@ const Burger = props => {
 )};
 
 export default Burger;
-
-// export default class Burger extends React.Component {
-//     render() {
-//         return (
-//             <div className='burger' aria-label='burger-button'>
-//                 <span />
-//             </div>
-//         );
-//     }
-// }

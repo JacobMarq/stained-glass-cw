@@ -16,8 +16,8 @@ div div .styles-image {
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 50vw;
-    height: 30vw;
+    width: 45vw;
+    height: 25vw;
     background-size: contain;
 }
 .slide-container {
@@ -32,6 +32,7 @@ div div .styles-image {
 .carousel-btn {
     color: #cfcfcf;
     background-color: transparent;
+    padding: 0%;
 }
 .carousel-btn:disabled {
     color: transparent;
@@ -76,16 +77,4 @@ div div .styles-image {
 }
 .carousel-dots button:hover {
     background-color: #aaa !important;
-}
-.mb-0 {
-    margin-bottom: 0% !important;
-}
-.mt-0 {
-    margin-top: 0% !important;
-}
-.mt-2-5 {
-    margin-top: 2.5% !important;
-}
-.mb-2-5 {
-    margin-bottom: 2.5% !important;
 }

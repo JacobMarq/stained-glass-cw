@@ -76,7 +76,7 @@ class App extends React.Component {
               </li>
             </ul>
           </nav>
-          <Menu show={this.state.menuActive}/>
+          <Menu click={this.menuClickHandler} show={this.state.menuActive}/>
           <Backdrop click={this.menuClickHandler} show={this.state.backdropActive}/>
         </div>
         <div className='app-container'>

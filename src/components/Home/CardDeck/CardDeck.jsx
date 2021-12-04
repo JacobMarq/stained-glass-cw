@@ -1,4 +1,5 @@
 import './CardDeck.css'
+import { Link } from 'react-router-dom';
 import React from "react";
 import Custom from '../../../img/card icons/Custom.png';
 import Licensed from '../../../img/card icons/Licensed.png';
@@ -18,7 +19,7 @@ export default class CardDeck extends React.Component {
                             Curiel offers windows, doors, and custom glass work
                             with an extensive variety of styles and materials. 
                         </p>
-                        <a href='/gallery' className='card-btn unselectable'>View our gallery</a>
+                        <Link to='/gallery' className='card-btn unselectable'>View our gallery</Link>
                     </div>
                 </div>
 
@@ -33,7 +34,7 @@ export default class CardDeck extends React.Component {
                             commitment to our customers to provide a
                             quality service every time.
                         </p>
-                        <a href='/about' className='card-btn unselectable'>Learn about us</a>
+                        <Link to='/about' className='card-btn unselectable'>Learn about us</Link>
                     </div>
                 </div>
                 
@@ -48,7 +49,7 @@ export default class CardDeck extends React.Component {
                             Curiel Windows is here to make your dream a
                             reality.
                         </p>
-                        <a href='/services' className='card-btn unselectable'>View our services</a>
+                        <Link to='/services' className='card-btn unselectable'>View our services</Link>
                     </div>
                 </div>
             </div>

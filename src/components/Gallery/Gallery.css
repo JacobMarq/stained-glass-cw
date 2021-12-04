@@ -7,19 +7,19 @@
         padding-left: 2.5%;
     }
     .gallery-img {
-        width: 90%;
+        width: 95%;
     }
 }
 @media (min-width: 800px) {
     .gallery-container {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
     .my-masonry-grid {
         padding-left: 1.5%;
     }
     .gallery-img {
-        width: 25vw;
+        width: 95%;
     }
 }
 .my-masonry-grid {

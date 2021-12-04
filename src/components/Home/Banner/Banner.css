@@ -34,7 +34,7 @@
         height: 35vw;
     }
     .banner-cover {
-        width: 40%;
+        width: 45%;
         top: 10%;
         height: 62.5%;
     }
@@ -108,7 +108,4 @@
 }
 .banner-cta:hover {
     background-color: #004682;
-}
-.brand-name-color {
-    color: #007ab9;
 }

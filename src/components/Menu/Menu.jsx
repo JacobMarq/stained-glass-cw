@@ -1,5 +1,6 @@
 import './Menu.css';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Menu = props => {
     let menuClasses = ['dropdown-menu-wrapper'];
@@ -11,16 +12,16 @@ const Menu = props => {
         <div className={menuClasses.join('')}>
             <ul className='dropdown-menu'>
                 <li>
-                    <a href='/'>Home</a>
+                    <Link to='/' onClick={props.click}>Home</Link>
                 </li>
                 <li>
-                    <a href='/gallery'>Gallery</a>
+                    <Link to='/gallery' onClick={props.click}>Gallery</Link>
                 </li>
                 <li>
-                    <a href="/about">About Us</a>
+                    <Link to="/about" onClick={props.click}>About Us</Link>
                 </li>
                 <li>
-                    <a href="/services">Services</a>
+                    <Link to="/services" onClick={props.click}>Services</Link>
                 </li>
             </ul>
         </div>
