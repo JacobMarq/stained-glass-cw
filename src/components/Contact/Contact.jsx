@@ -1,8 +1,8 @@
 import './Contact.css';
 import React from 'react';
 import MessageForm from './MessageForm/MessageForm';
-import MailIcon from '../../img/card icons/Mail.png';
-import PhoneCallIcon from '../../img/card icons/PhoneCall.png';
+import MailIcon from '../../img/CardIcons/Mail.png';
+import PhoneCallIcon from '../../img/CardIcons/PhoneCall.png';
 
 export default class Contact extends React.Component {
     constructor(props) {

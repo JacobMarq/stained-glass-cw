@@ -1,9 +1,9 @@
 import './CardDeck.css'
 import { Link } from 'react-router-dom';
 import React from "react";
-import Custom from '../../../img/card icons/Custom.png';
-import Licensed from '../../../img/card icons/Licensed.png';
-import Variety from '../../../img/card icons/Variety.png';
+import Custom from '../../../img/CardIcons/Custom.png';
+import Licensed from '../../../img/CardIcons/Licensed.png';
+import Variety from '../../../img/CardIcons/Variety.png';
 
 export default class CardDeck extends React.Component {
     render() {

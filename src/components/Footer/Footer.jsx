@@ -1,7 +1,7 @@
 import './Footer.css'
 import React from "react";
 import { Link } from 'react-router-dom';
-import Icon from '../../img/new_jpg/StainedGlassCWIcon.jpg'
+import Icon from '../../img/Brand/StainedGlassCWIcon.jpg'
 
 export default class Footer extends React.Component {
     render() {

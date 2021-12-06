@@ -12,9 +12,9 @@ import Burger from './components/Burger/Burger.jsx';
 import Menu from './components/Menu/Menu';
 import Backdrop from './components/Backdrop/Backdrop'
 
-import MobileNavLogo from './img/new_jpg/StainedGlassCW.jpg'
-import NavLogo from './img/new_jpg/StainedGlassCWIcon.jpg';
-import NavLogoText from './img/new_jpg/StainedGlassCWText.jpg';
+import MobileNavLogo from './img/Brand/StainedGlassCW.jpg'
+import NavLogo from './img/Brand/StainedGlassCWIcon.jpg';
+import NavLogoText from './img/Brand/StainedGlassCWText.jpg';
 class App extends React.Component {
   state = {
     menuActive: false,
