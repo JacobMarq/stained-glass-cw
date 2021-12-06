@@ -97,11 +97,12 @@
     text-align: center;
 }
 .card-btn {
-    display: inline-block;
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-weight: 500;
-    margin: auto;
     padding: 4%;
+    flex-direction: row;
     padding-left: 12.5%;
     padding-right: 12.5%;
     border-radius: 50px;
