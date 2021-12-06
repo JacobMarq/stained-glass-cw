@@ -1,6 +1,5 @@
 import './Banner.css';
 import React from 'react';
-import { Link } from 'react-router-dom';
 import BannerImg from '../../../img/Banner/px1.jpg';
 
 export default class Banner extends React.Component {
@@ -12,7 +11,7 @@ export default class Banner extends React.Component {
                     <p className='banner-question'>Have home improvement or repair needs for your home?</p>
                     <div className='banner-answer'><span className='brand-name-color'>CURIEL WINDOWS</span> has you covered</div>
                     <p className='banner-cta-cap'>Get a quote today</p>
-                    <Link href='/stained-glass-cw/contact' className='banner-cta'>Let's Get Started</Link>
+                    <a href='/stained-glass-cw/contact' className='banner-cta'>Let's Get Started</a>
                 </div>
             </div>
         );
