@@ -18,7 +18,7 @@ const ServicesList = props => {
 
     function makeRequest(service) {    
         props.request(service);
-        navigate('/contact')
+        navigate('/stained-glass-cw/contact')
     }
 
     return(
@@ -27,7 +27,7 @@ const ServicesList = props => {
                 <li className='layered-shadow' key={index}>
                     <div>
                         <p>{service}</p>
-                        <button href='/contact'
+                        <button href='/stained-glass-cw/contact'
                            onClick={() => makeRequest(service)}
                            className='service-request-btn layered-shadow' 
                            aria-label='request-service'>
@@ -37,7 +37,12 @@ const ServicesList = props => {
                             <span className='service-request'>
                                 &nbsp;
                             </span>
-                            {'\u260E'}
+                            <span className="request-btn-mobile">
+                                {'\u2709'}
+                            </span>
+                            <span className="service-request">
+                                {'\u260E'}
+                            </span>
                             <span className='service-request'>
                                 &nbsp;
                             </span>

@@ -19,7 +19,7 @@ export default class CardDeck extends React.Component {
                             Curiel offers windows, doors, and custom glass work
                             with an extensive variety of styles and materials. 
                         </p>
-                        <Link to='/gallery' className='card-btn unselectable'>View our gallery</Link>
+                        <Link to='/stained-glass-cw/gallery' className='card-btn unselectable'>View our gallery</Link>
                     </div>
                 </div>
 
@@ -34,7 +34,7 @@ export default class CardDeck extends React.Component {
                             commitment to our customers to provide a
                             quality service every time.
                         </p>
-                        <Link to='/about' className='card-btn unselectable'>Learn about us</Link>
+                        <Link to='/stained-glass-cw/about' className='card-btn unselectable'>Learn about us</Link>
                     </div>
                 </div>
                 
@@ -49,7 +49,7 @@ export default class CardDeck extends React.Component {
                             Curiel Windows is here to make your dream a
                             reality.
                         </p>
-                        <Link to='/services' className='card-btn unselectable'>View our services</Link>
+                        <Link to='/stained-glass-cw/services' className='card-btn unselectable'>View our services</Link>
                     </div>
                 </div>
             </div>

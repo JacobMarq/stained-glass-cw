@@ -12,16 +12,16 @@ const Menu = props => {
         <div className={menuClasses.join('')}>
             <ul className='dropdown-menu'>
                 <li>
-                    <Link to='/' onClick={props.click}>Home</Link>
+                    <Link to='stained-glass-cw/' onClick={props.click}>Home</Link>
                 </li>
                 <li>
-                    <Link to='/gallery' onClick={props.click}>Gallery</Link>
+                    <Link to='stained-glass-cw/gallery' onClick={props.click}>Gallery</Link>
                 </li>
                 <li>
-                    <Link to="/about" onClick={props.click}>About Us</Link>
+                    <Link to="stained-glass-cw/about" onClick={props.click}>About Us</Link>
                 </li>
                 <li>
-                    <Link to="/services" onClick={props.click}>Services</Link>
+                    <Link to="stained-glass-cw/services" onClick={props.click}>Services</Link>
                 </li>
             </ul>
         </div>

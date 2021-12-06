@@ -50,27 +50,27 @@ class App extends React.Component {
                 <img src={NavLogoText} className="nav-logo-text-scale" alt="nav-logo-text"/>
               </li>
               <li>
-                <NavLink to="/" activeclassname="nav-link active" className="nav-link">
+                <NavLink to="/stained-glass-cw/" activeclassname="nav-link active" className="nav-link">
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/gallery" activeclassname="nav-link active" className="nav-link">
+                <NavLink to="/stained-glass-cw/gallery" activeclassname="nav-link active" className="nav-link">
                   Gallery
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/about" activeclassname="nav-link active" className="nav-link">
+                <NavLink to="/stained-glass-cw/about" activeclassname="nav-link active" className="nav-link">
                   About Us
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/services" activeclassname="nav-link active" className="nav-link">
+                <NavLink to="/stained-glass-cw/services" activeclassname="nav-link active" className="nav-link">
                   Services
                 </NavLink>
               </li>
               <li>
-                <Link to="/contact" className="cta">
+                <Link to="/stained-glass-cw/contact" className="cta">
                   Get A Quote
                 </Link>
               </li>
@@ -81,11 +81,11 @@ class App extends React.Component {
         </div>
         <div className='app-container'>
           <Routes>
-            <Route path="" element={<Home />} />
-            <Route path="/services/*" element={<Services request={this.serviceRequestHandler}/>} />
-            <Route path="/about/*" element={<About />} />
-            <Route path="/gallery/*" element={<Gallery />} />
-            <Route path="/contact/*" element={<Contact service={this.state.serviceRequest}/>} />
+            <Route path="stained-glass-cw/" element={<Home />} />
+            <Route path="stained-glass-cw/services/*" element={<Services request={this.serviceRequestHandler}/>} />
+            <Route path="stained-glass-cw/about/*" element={<About />} />
+            <Route path="stained-glass-cw/gallery/*" element={<Gallery />} />
+            <Route path="stained-glass-cw/contact/*" element={<Contact service={this.state.serviceRequest}/>} />
           </Routes>
         </div>
         <Footer/>

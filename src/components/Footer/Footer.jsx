@@ -9,7 +9,7 @@ export default class Footer extends React.Component {
             <footer className='foot-panel'>
                 <div className='foot-cta-bar unselectable'>
                     <h2 className='foot-cta-quote brand-name-color'>Don't hold off on your home improvement needs !</h2>
-                    <Link to='/contact' className='footer-cta'>Get A Quote</Link>
+                    <Link to='stained-glass-cw/contact' className='footer-cta'>Get A Quote</Link>
                     <h3 className='card-body card-desc mt-2-5 mb-0'>Home window replacement experts serving</h3>
                     <h3 className='card-body card-desc mt-0 mb-2-5'>Orange County, Inland Empire, {'&'} Los Angeles County.</h3>
                 </div>

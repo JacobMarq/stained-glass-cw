@@ -10,6 +10,9 @@
     .service-request {
         display: none;
     }
+    .request-btn-mobile {
+        display: flex;
+    }
     .service-list li div button {
         width: 45px;
     }
@@ -28,6 +31,9 @@
     }
     .service-request {
         display: flex;
+    }
+    .request-btn-mobile {
+        display: none;
     }
     .service-list li div button {
         width: auto;
