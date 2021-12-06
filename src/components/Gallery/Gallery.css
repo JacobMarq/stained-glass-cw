@@ -8,6 +8,7 @@
     }
     .gallery-img {
         width: 95%;
+        max-height: 100vw;
     }
 }
 @media (min-width: 800px) {

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Slide, Image } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import Styles from './Styles';

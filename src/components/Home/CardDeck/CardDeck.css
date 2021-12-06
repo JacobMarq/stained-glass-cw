@@ -15,11 +15,9 @@
         margin: auto;
     }
     .card-title {
-        font-weight: 500;
         font-size: 1.5rem;
     }
     .card-desc {
-        font-weight: 400;
         font-size: 1rem;
         margin-top: 10%;
         margin-right: 5%;
@@ -27,7 +25,6 @@
         margin-bottom: 5%;
     }
     .card-btn {
-        font-weight: 500;
         font-size: 1rem;
         margin-bottom: 10%;
     }
@@ -49,15 +46,12 @@
         max-width: 31%
     }
     .card-title {
-        font-weight: 400;
         font-size: 1.8vw;
     }
     .card-desc {
-        font-weight: 300;
         font-size: 1.25vw;
     }
     .card-btn {
-        font-weight: 400;
         font-size: 1.5vw;
         margin-bottom: 5%;
     }
@@ -85,6 +79,7 @@
     width: 75%;
 }
 .card-title {
+    font-weight: 500;
     margin: 0;
     text-align: center;
     color: #004682;
@@ -98,10 +93,14 @@
     margin: 5%;
 }
 .card-desc {
+    font-weight: 400;
     text-align: center;
 }
 .card-btn {
+    display: flex;
+    font-weight: 500;
     padding: 4%;
+    flex-direction: row;
     padding-left: 12.5%;
     padding-right: 12.5%;
     border-radius: 50px;
