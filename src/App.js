@@ -81,11 +81,11 @@ class App extends React.Component {
         </div>
         <div className='app-container'>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="services/*" element={<Services request={this.serviceRequestHandler}/>} />
-            <Route path="about/*" element={<About />} />
-            <Route path="gallery/*" element={<Gallery />} />
-            <Route path="contact/*" element={<Contact service={this.state.serviceRequest}/>} />
+            <Route path="" element={<Home />} />
+            <Route path="/services/*" element={<Services request={this.serviceRequestHandler}/>} />
+            <Route path="/about/*" element={<About />} />
+            <Route path="/gallery/*" element={<Gallery />} />
+            <Route path="/contact/*" element={<Contact service={this.state.serviceRequest}/>} />
           </Routes>
         </div>
         <Footer/>
