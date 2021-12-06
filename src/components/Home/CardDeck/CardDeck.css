@@ -99,6 +99,10 @@
 .card-btn {
     display: flex;
     font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    margin: auto;
     padding: 4%;
     flex-direction: row;
     padding-left: 12.5%;
