@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './MessageForm.css';
 import { useForm } from 'react-hook-form';
 import { init, sendForm } from 'emailjs-com';
-init('YOUR_USER_NAME');
+init('user_r804nOGQUMwCKNliBD6xt');
 
 const MessageForm = props => {
         const [statusMessage, setStatusMessage] = useState("");
