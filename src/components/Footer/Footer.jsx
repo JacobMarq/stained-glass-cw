@@ -24,9 +24,6 @@ export default class Footer extends React.Component {
                                 <a href="tel:+17142321214">{'\u260E'}: 714-232-1214</a>
                             </li>
                             <li>
-                                <a href="mailto:stainedglasscw@gmail.com">{'\u2709'}: stainedglasscw@gmail.com</a>
-                            </li>
-                            <li>
                                 <a href="mailto:sgcwcuriel77@gmail.com">{'\u2709'}: sgcwcuriel77@gmail.com</a>
                             </li>
                             <li>
