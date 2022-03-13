@@ -1,26 +1,26 @@
 @media (max-width: 800px) {
+    .banner-container {
+        max-height: 65vw;
+    }
+
     .bannerimg {
-        height: 50vw;
+        height: 65vw;
     }
     .banner-cover {
         width: 60%;
-        top: 5%;
-        height: 85%;
+        top: 10%;
+        height: 70%;
     }
     .banner-question {
-        font-size: 3.5vw;
-        font-weight: 400;
+        font-size: 3.75vw;
     }
     .banner-answer {
-        font-weight: 400 ;
         font-size: 3vw;
     }
     .banner-cta-cap {
         font-size: 3vw;
-        font-weight: 400;
     }
     .banner-cta {
-        font-weight: 500;
         font-size: 1rem;
         padding: 4%;
         padding-left: 12.5%;
@@ -30,28 +30,28 @@
 }
 
 @media (min-width: 800px) {
+    .banner-container {
+        max-height: 42.5vw;
+    }
+
     .bannerimg {
-        height: 35vw;
+        height: 42.5vw;
     }
     .banner-cover {
-        width: 45%;
+        width: 35%;
         top: 10%;
-        height: 62.5%;
+        height: 65%;
     }
     .banner-question {
-        font-size: 1.8vw;
-        font-weight: 100;
+        font-size: 2.2vw;
     }
     .banner-answer {
-        font-weight: 200 ;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
     }
     .banner-cta-cap {
         font-size: 1.5vw;
-        font-weight: 300;
     }
     .banner-cta {
-        font-weight: 400;
         font-size: 2vw;
         padding: 4%;
         padding-left: 12.5%;
@@ -61,13 +61,9 @@
 }
 
 .banner-container {
-    border-radius: 15px;
-    background-color: #004682;
     position: relative;
-    border-bottom: #004682 2px solid;
 }
 .bannerimg {
-    border-radius: 15px;
     width: 100%;
     transform: rotateY(180deg);
 }
@@ -76,35 +72,39 @@
     left: 0;
     padding-left: 5%;
     display: block;
-    border-radius: 0 15px 15px 0;
+    border-radius: 0 5px 5px 0;
     background-color: rgba(255, 255, 255, .9);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
 }
 .banner-question {
     text-align: left;
-    margin-top: 5%;
+    margin-top: 7.5%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 10%;
     margin-bottom: 5%;
-    color: #222
+    color: #222;
+    font-weight: 400;
 }
 .banner-answer {
     text-align: left;
     margin-top: 5%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 10%;
     margin-bottom: 10%;
-    color: #222
+    color: #222;
+    font-weight: 400;
 }
 .banner-cta-cap {
     color: #666;
     margin-bottom: 7%;
+    font-weight: 400;
 }
 .banner-cta {
     background-color: #007ab9;
     color: #ffff;
     text-decoration: none;
     transition: ease-in-out .2s all;
+    font-weight: 500;
 }
 .banner-cta:hover {
     background-color: #004682;

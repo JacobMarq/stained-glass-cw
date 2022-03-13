@@ -30,7 +30,7 @@ export default class Contact extends React.Component {
                         <div className='card-body'>
                             <img src={MailIcon} className='card-icon' alt='CardIconLicensed'/>
                             <h2 className='card-title'>Email</h2>
-                            <p className='card-desc'>Send an email</p>
+                            <p className='card-desc'>Please include your requested service in the subject line.</p>
                             <a className='card-btn unselectable' href="mailto:sgcwcuriel77@gmail.com">Email Now</a>
                         </div>
                     </div>

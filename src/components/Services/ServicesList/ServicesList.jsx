@@ -32,19 +32,10 @@ const ServicesList = props => {
                            className='service-request-btn layered-shadow' 
                            aria-label='request-service'>
                             <span className='service-request'>
-                                &nbsp; Request service &nbsp;
-                            </span>
-                            <span className='service-request'>
-                                &nbsp;
+                                &nbsp; Request service &nbsp; &#8250; &nbsp;
                             </span>
                             <span className="request-btn-mobile">
-                                {'\u2709'}
-                            </span>
-                            <span className="service-request">
-                                {'\u260E'}
-                            </span>
-                            <span className='service-request'>
-                                &nbsp;
+                                &#8250;
                             </span>
                         </button>
                     </div>

@@ -13,8 +13,8 @@
 
 @media (min-width: 800px) {
     .home-container {
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
     .h2question {
         font-size: 3vw;
@@ -23,18 +23,6 @@
         height: 27vw;
     }
     
-}
-
-.home-container {
-    position: relative;
-}
-.home-container::before {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: 0;
-    width: 100%;
-    background-color: #007ddf;
 }
 
 .h2question {

@@ -7,13 +7,16 @@ import StyleCarousel from './StyleCarousel/StyleCarousel';
 export default class Home extends React.Component {
     render() {
         return (
-            <div className='home-container'>
-                <Banner />
-                <br /> 
-                <h2 className='h2question unselectable'>Why Curiel Windows?</h2>
-                <CardDeck />
-                <br />
-                <StyleCarousel />
+            <div>
+                <Banner/>
+
+                <div className='home-container'>
+                    <br /> 
+                    <h2 className='h2question unselectable'>Why Curiel Windows?</h2>
+                    <CardDeck />
+                    <br />
+                    <StyleCarousel />
+                </div>
             </div>
         );
     }

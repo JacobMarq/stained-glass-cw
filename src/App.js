@@ -40,15 +40,17 @@ class App extends React.Component {
       <div className="App">
         <div className='nav-wrapper'>
           <nav>
-            <img src={MobileNavLogo} className="nav-logo-mobile" alt="nav-logo-mobile"/>
+            <a href='/stained-glass-cw/'>
+              <img src={MobileNavLogo} className="nav-logo-mobile" alt="nav-logo-mobile"/>
+            </a>
 
             <ul id="navigation" className="navbar unselectable">
               <Burger click={this.menuClickHandler} active={this.state.burgerActive}/>
 
-              <li className="nav-logo">
+              <a href='/stained-glass-cw/' className="nav-logo">
                 <img src={NavLogo} className="nav-logo-icon-scale" alt="nav-logo-icon"/>
                 <img src={NavLogoText} className="nav-logo-text-scale" alt="nav-logo-text"/>
-              </li>
+              </a>
               <li>
                 <NavLink to="/stained-glass-cw/" activeclassname="nav-link active" className="nav-link">
                   Home
