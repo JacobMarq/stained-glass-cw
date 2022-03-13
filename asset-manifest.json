@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/stained-glass-cw/static/css/main.07a4deaf.css",
-    "main.js": "/stained-glass-cw/static/js/main.7957c534.js",
+    "main.css": "/stained-glass-cw/static/css/main.b313e09f.css",
+    "main.js": "/stained-glass-cw/static/js/main.39c87608.js",
     "static/js/787.7caecbec.chunk.js": "/stained-glass-cw/static/js/787.7caecbec.chunk.js",
     "static/media/4.jpg": "/stained-glass-cw/static/media/4.30a9a6624944d5d81a1f.jpg",
     "static/media/2.jpg": "/stained-glass-cw/static/media/2.b78f0a8504bca5c44a72.jpg",
@@ -39,12 +39,12 @@
     "static/media/Mail.png": "/stained-glass-cw/static/media/Mail.5804bd8bf28684cae2a9.png",
     "static/media/Licensed.png": "/stained-glass-cw/static/media/Licensed.df47b67160c04af85e4e.png",
     "index.html": "/stained-glass-cw/index.html",
-    "main.07a4deaf.css.map": "/stained-glass-cw/static/css/main.07a4deaf.css.map",
-    "main.7957c534.js.map": "/stained-glass-cw/static/js/main.7957c534.js.map",
+    "main.b313e09f.css.map": "/stained-glass-cw/static/css/main.b313e09f.css.map",
+    "main.39c87608.js.map": "/stained-glass-cw/static/js/main.39c87608.js.map",
     "787.7caecbec.chunk.js.map": "/stained-glass-cw/static/js/787.7caecbec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07a4deaf.css",
-    "static/js/main.7957c534.js"
+    "static/css/main.b313e09f.css",
+    "static/js/main.39c87608.js"
   ]
 }
