@@ -10,7 +10,7 @@ const Services = [
     'Dual Glass',
     'Vinyl Window',
     'Stained Glass Repair',
-    'Custom Installation'
+    'Custom Installation',
 ];
 
 const ServicesList = props => {

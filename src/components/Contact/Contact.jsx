@@ -21,7 +21,7 @@ export default class Contact extends React.Component {
                         <div className='card-body'>
                             <img src={PhoneCallIcon} className='card-icon' alt='CardIconLicensed'/>
                             <h2 className='card-title'>Phone</h2>
-                            <p className='card-desc'>Give us a call</p>
+                            <p className='card-desc'>Speak to a licensed professional.</p>
                             <a className='card-btn unselectable' href="tel:+17142321214">Call Now</a>
                         </div>
                     </div>
