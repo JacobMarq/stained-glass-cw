@@ -13,8 +13,8 @@
 
 @media (min-width: 800px) {
     .home-container {
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 0;
+        padding-right: 0;
     }
     .h2question {
         font-size: 3vw;
@@ -26,8 +26,13 @@
 }
 
 .h2question {
-    margin: 2.5%;
-    padding-top: 2.5%;
+    margin: 0;
+    padding-top: 4%;
+    padding-bottom: 2.5%;
     font-weight: 400;
-    color: #004682;
+    color: var(--color-secondary);
+}
+
+.info-card-wrapper {
+    background-color: var(--color-background-white);
 }

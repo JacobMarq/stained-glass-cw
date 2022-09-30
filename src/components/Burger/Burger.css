@@ -26,7 +26,7 @@
     left: 3px;
     height: 4px;
     width: 24px;
-    background-color: #004682;
+    background-color: var(--color-secondary);
     transition: all .3s ease-in-out;
 }
 .burger span::before {
@@ -36,7 +36,7 @@
     top: 8px;
     height: 4px;
     width: 24px;
-    background-color: #004682;
+    background-color: var(--color-secondary);
     transition: all .3s ease-in-out;
 }
 .burger span::after {
@@ -46,7 +46,7 @@
     bottom: 8px;
     height: 4px;
     width: 24px;
-    background-color: #004682;
+    background-color: var(--color-secondary);
     transition: all .3s ease-in-out;
 }
 

@@ -5,7 +5,7 @@ import BannerImg from '../../../img/Banner/px1.jpg';
 export default class Banner extends React.Component {
     render() {
         return (
-            <div className='banner-container layered-shadow unselectable'>
+            <div className='banner-container unselectable'>
                 <img src={BannerImg} className='bannerimg' alt='BannerImage'/>
                 <div className='banner-cover'>
                     <p className='banner-question'>Have home improvement or repair needs for your home?</p>

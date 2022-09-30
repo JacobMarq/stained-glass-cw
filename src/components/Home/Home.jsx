@@ -9,14 +9,11 @@ export default class Home extends React.Component {
         return (
             <div>
                 <Banner/>
-
-                <div className='home-container'>
-                    <br /> 
+                <div className='info-card-wrapper'>
                     <h2 className='h2question unselectable'>Why Curiel Windows?</h2>
                     <CardDeck />
-                    <br />
-                    <StyleCarousel />
                 </div>
+                <StyleCarousel />
             </div>
         );
     }

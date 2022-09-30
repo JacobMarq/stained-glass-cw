@@ -15,7 +15,7 @@ export default class CardDeck extends React.Component {
                         <h3 className='card-title unselectable'>
                             VARIETY
                         </h3>
-                        <p className='card-desc'>
+                        <p className='card-desc p-tb-10 border-t-line'>
                             Curiel offers windows, doors, and custom glass work
                             with an extensive variety of styles and materials. 
                         </p>
@@ -29,7 +29,7 @@ export default class CardDeck extends React.Component {
                         <h3 className='card-title unselectable'>
                             LICENSED PROFESSIONALS
                         </h3>
-                        <p className='card-desc'>
+                        <p className='card-desc p-tb-10 border-t-line'>
                             With over 23 years in the industry, we have a
                             commitment to our customers to provide a
                             quality service every time.
@@ -44,7 +44,7 @@ export default class CardDeck extends React.Component {
                         <h3 className='card-title unselectable'>
                             CUSTOM WORK
                         </h3>
-                        <p className='card-desc'>
+                        <p className='card-desc p-tb-10 border-t-line'>
                             No matter your next home renovation project,
                             Curiel Windows is here to make your dream a
                             reality.

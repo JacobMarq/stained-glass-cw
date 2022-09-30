@@ -8,7 +8,7 @@ import Slides from './Slides/Slides';
 export default class StyleCarousel extends React.Component {
     render() {
         return (
-            <div>
+            <div className='carousel-wrapper'>
                 <h2 className='h2question'>10 Common Styles</h2>
                 <CarouselProvider
                     naturalSlideWidth={75}

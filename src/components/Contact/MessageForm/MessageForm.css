@@ -39,8 +39,8 @@
 }
 .message-status {
     font-size: 1rem;
-    color: rgb(177, 0, 0);
-    background-color: rgba(255, 100, 100, 0.466);
+    color: var(--color-alert);
+    background-color: var(--color-alert-background);
     border-radius: 15px;
 }
 #contact-form {
@@ -72,7 +72,7 @@
 .input-alert {
     text-align: left;
     font-size: 1rem;
-    color: rgb(177, 0, 0);
+    color: var(--color-alert);
 }
 .char-limit {
     margin: 0%;

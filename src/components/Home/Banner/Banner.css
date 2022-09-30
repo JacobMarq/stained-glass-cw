@@ -5,6 +5,7 @@
 
     .bannerimg {
         height: 65vw;
+        width: 120%;
     }
     .banner-cover {
         width: 60%;
@@ -31,11 +32,11 @@
 
 @media (min-width: 800px) {
     .banner-container {
-        max-height: 42.5vw;
+        max-height: 45vw;
     }
-
     .bannerimg {
-        height: 42.5vw;
+        height: 45vw;
+        width: 100%;
     }
     .banner-cover {
         width: 35%;
@@ -64,7 +65,8 @@
     position: relative;
 }
 .bannerimg {
-    width: 100%;
+    top: 0;
+    position: sticky;
     transform: rotateY(180deg);
 }
 .banner-cover {
@@ -95,17 +97,17 @@
     font-weight: 400;
 }
 .banner-cta-cap {
-    color: #666;
+    color: var(--color-subtext);
     margin-bottom: 7%;
     font-weight: 400;
 }
 .banner-cta {
-    background-color: #007ab9;
-    color: #ffff;
+    background-color: var(--color-tertiary);
+    color: var(--color-background-white);
     text-decoration: none;
     transition: ease-in-out .2s all;
     font-weight: 500;
 }
 .banner-cta:hover {
-    background-color: #004682;
+    background-color: var(--color-tertiary-hover);
 }

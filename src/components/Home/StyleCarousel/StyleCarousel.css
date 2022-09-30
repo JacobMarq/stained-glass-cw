@@ -7,8 +7,8 @@
 
 @media (min-width: 800px) {
     .carousel-btn {
-        width: 5.5%;
-        font-size: 3rem;
+        width: 7%;
+        font-size: 4rem;
     }
 }
 
@@ -16,8 +16,8 @@ div div .styles-image {
     display: flex;
     justify-content: center;
     margin: auto;
-    width: 45vw;
-    height: 25vw;
+    width: 43vw;
+    height: 22.5vw;
     background-size: contain;
 }
 .slide-container {
@@ -27,10 +27,10 @@ div div .styles-image {
 }
 .carousel {
     position: relative;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 .carousel-btn {
-    color: #cfcfcf;
+    color: var(--color-light-blue);
     background-color: transparent;
     padding: 0%;
 }
@@ -45,36 +45,36 @@ div div .styles-image {
 }
 .carousel-btn:hover {
     color: white;
-    background-color: #cfcfcf;
+    background-color: var(--color-light-blue);
 }
 
 .carousel-back-btn {
     position: absolute;
-    top: 25%;
+    top: 0%;
     display: block;
-    height: 50%;
+    height: 92%;
     border: none;
 }
 
 .carousel-next-btn {
     position: absolute;
-    top: 25%;
+    top: 0%;
     right: 0%;
     display: block;
-    height: 50%;
+    height: 92%;
     border: none;
 }
 .carousel-dots button {
-    background-color: #888;
+    background-color: var(--color-quaternary);
     border-color: transparent !important;
-    margin: .5px;
-    border-radius: 0%;
-    width: 9%;
-    height: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
 }
 .carousel-dots button:disabled {
-    background-color: #cfcfcf !important;
+    background-color: var(--color-quaternary-active) !important;
 }
 .carousel-dots button:hover {
-    background-color: #aaa !important;
+    background-color: var(--color-quaternary-hover) !important;
 }
