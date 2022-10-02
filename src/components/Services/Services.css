@@ -46,7 +46,7 @@
 
 .service-container {
     padding-top: 5%;
-    background-color: var(--color-light-blue);
+    background-color: var(--color-background-white);
 }
 .service-list {
     text-align: left;

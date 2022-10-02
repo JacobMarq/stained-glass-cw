@@ -35,4 +35,5 @@
 
 .info-card-wrapper {
     background-color: var(--color-background-white);
+    border-top: solid 4px var(--color-secondary);
 }

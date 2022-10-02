@@ -23,6 +23,11 @@
         width: 95%;
     }
 }
+
+.gallery-container {
+    background-color: var(--color-background-white);
+}
+
 .my-masonry-grid {
     display: flex;
     padding-top: 5%;
@@ -34,7 +39,7 @@
 }
 
 .my-masonry-grid-column > .gallery-img {
-    background: grey;
+    background: var(--color-background-white);
     margin-bottom: 5%;
 }
 

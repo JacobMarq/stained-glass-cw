@@ -56,9 +56,9 @@ export default class Contact extends React.Component {
         }
 
         return (
-            <div>
+            <div className='contact-page'>
                 <h1 className='h1question unselectable'>Have Questions?</h1>
-                <h1 className='h1question mb-7-5 unselectable'>Need a Quote?</h1>
+                <h1 className='h1question mb-5 unselectable'>Need a Quote?</h1>
 
                 <div className='contact-cards'>
                     <div className='card layered-shadow'>
@@ -86,17 +86,18 @@ export default class Contact extends React.Component {
                     recaptchaError={this.state.recaptchaError}
                     handleInvalidRecaptcha={handleInvalidRecaptcha}
                 />
-                <ReCAPTCHA
-                    className='recaptcha'
-                    sitekey={process.env.REACT_APP_GOOGLE_CAPTCHA_SITE_KEY}
-                    onChange={(e) => onChange(e)}
-                    onErrored={() => onErrored()}
-                    onExpired={() => onExpired()}
-                />
-                <div className='text-under-message mb-5'>
-                    {this.state.recaptchaError && (
-                        <div className='input-alert' role='alert'>Captcha is required</div>
-                    )}
+                <div className='recaptcha'>
+                    <ReCAPTCHA
+                        sitekey={process.env.REACT_APP_GOOGLE_CAPTCHA_SITE_KEY}
+                        onChange={(e) => onChange(e)}
+                        onErrored={() => onErrored()}
+                        onExpired={() => onExpired()}
+                    />
+                    <div className='text-under-message mb-5'>
+                        {this.state.recaptchaError && (
+                            <div className='input-alert' role='alert'>Captcha is required</div>
+                        )}
+                    </div>
                 </div>
             </div>
         );

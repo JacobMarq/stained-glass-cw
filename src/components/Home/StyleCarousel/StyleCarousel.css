@@ -25,9 +25,12 @@ div div .styles-image {
     justify-content: center;
     margin: auto;
 }
+.carousel-wrapper {
+    background-color: var(--color-background-white);
+}
 .carousel {
     position: relative;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
 }
 .carousel-btn {
     color: var(--color-light-blue);
