@@ -133,7 +133,13 @@ const MessageForm = props => {
                     </div>
                     <br/>
 
-                    <input className='unselectable contact-btn mb-5' type='submit' value='Send Message' />
+                    {!props.recaptcha || props.recaptchaError ? 
+                        <button onClick={(e) => props.handleInvalidRecaptcha(e)} className='unselectable contact-btn mb-5'>
+                            Send Message
+                        </button>
+                        :
+                        <input className='unselectable contact-btn mb-5' type='submit' value='Send Message' />
+                    }
                 </form>
             </div>
         );

@@ -38,7 +38,7 @@
 .about-container {
     text-align: left;
     position: relative;
-    background-color: var(--color-light-blue);
+    background-color: var(--color-background-white);
     padding-top: 2.5%;
     padding-bottom: 2.5%;
 }

@@ -11,7 +11,7 @@
         margin-top: 30px;
         margin-bottom: 40px;
     }
-    .footer-column-one ul li {
+    .footer-list li {
         font-size: .9rem;
     }
 }
@@ -28,7 +28,7 @@
         margin-top: 30px;
         margin-bottom: 40px;
     }
-    .footer-column-one ul li {
+    .footer-list li {
         font-size: .9rem;
     }
 }
@@ -37,13 +37,13 @@
     display: block;
     justify-content: end;
     width: 100%;
-    background-color: var(--color-light-blue);
+    background-color: var(--color-background-white);
     /* background-color: #007edfbb; */
     margin-top: auto;
     bottom: 0;
 }
 .foot-cta-bar {
-    border-top: var(--color-light-blue) solid 30px;
+    border-top: var(--color-secondary) solid 4px;
     background-color: var(--color-background-white);
     width: 100%;
     display: flex;
@@ -71,34 +71,46 @@
     color: var(--color-subtext);
 }
 .footer-row {
+    display: flex;
+    flex-direction: row;
     padding-left: 10%;
+    margin-top: 10px;
+}
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
     flex-direction: row;
 }
-.footer-column-one {
-    color: var(--color-subtext);
-    flex-direction: column;
-    text-align: left;
+.footer-icon {
+    display: flex;
+    width: 12vmin;
+    margin-top: 5%;
 }
-.footer-column-one ul {
+.footer-nav-list {
+    min-width: 95%;
+}
+.footer-nav-list * {
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+}
+
+.footer-list {
+    width: 90%;
     margin: 0;
-    border-top: var(--color-background-white) 4px solid;
+    border-top: var(--color-secondary) 4px solid;
     padding-bottom: 5%;
     padding-left: 0;
+    text-align: left;
 }
-.footer-column-one ul li {
-    color: var(--color-background-white);
+.footer-list li {
+    color: var(--color-dark-gray-text);
     font-weight: 400;
     padding-top: 10px;
     list-style: none;
     padding-left: 0;
 }
-.footer-column-one ul li a {
-    color: var(--color-background-white);
-}
-.footer-icon {
-    width: 12vmin;
-    margin-top: 5%;
-    margin-left: 0;
-    margin-bottom: 5px;
-    border: solid 2px black;
+.footer-list li a {
+    color: var(--color-dark-gray-text);
 }

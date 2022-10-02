@@ -3,14 +3,58 @@ import React from 'react';
 import MessageForm from './MessageForm/MessageForm';
 import MailIcon from '../../img/CardIcons/Mail.png';
 import PhoneCallIcon from '../../img/CardIcons/PhoneCall.png';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 export default class Contact extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {value: props.service};
+        this.state = {
+            value: props.service,
+            recaptcha: false,
+            recaptchaError: false,
+        };
     };
 
     render() {
+        const onChange = (e) => {
+            if(e) {
+                this.setState(prevState => {
+                    return { ...prevState,
+                             recaptcha: true,
+                             recaptchaError: false
+                    }
+                });
+            }
+        }
+
+        const onErrored = () => {
+            this.setState(prevState => {
+                return { ...prevState,
+                         recaptcha: false,
+                         recaptchaError: true
+                }
+            });
+        }
+
+        const onExpired = () => {
+            this.setState(prevState => {
+                return { ...prevState,
+                         recaptcha: false,
+                         recaptchaError: false
+                }
+            });
+        }
+
+        const handleInvalidRecaptcha = (e) => {
+            e.preventDefault();
+            this.setState(prevState => {
+                return { ...prevState,
+                         recaptcha: false,
+                         recaptchaError: true
+                }
+            });
+        }
+
         return (
             <div>
                 <h1 className='h1question unselectable'>Have Questions?</h1>
@@ -36,7 +80,24 @@ export default class Contact extends React.Component {
                     </div>
                 </div>
 
-                <MessageForm selectServiceValue={this.state.value}/>
+                <MessageForm 
+                    selectServiceValue={this.state.value}
+                    recaptcha={this.state.recaptcha}
+                    recaptchaError={this.state.recaptchaError}
+                    handleInvalidRecaptcha={handleInvalidRecaptcha}
+                />
+                <ReCAPTCHA
+                    className='recaptcha'
+                    sitekey={process.env.REACT_APP_GOOGLE_CAPTCHA_SITE_KEY}
+                    onChange={(e) => onChange(e)}
+                    onErrored={() => onErrored()}
+                    onExpired={() => onExpired()}
+                />
+                <div className='text-under-message mb-5'>
+                    {this.state.recaptchaError && (
+                        <div className='input-alert' role='alert'>Captcha is required</div>
+                    )}
+                </div>
             </div>
         );
     }

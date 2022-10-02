@@ -63,3 +63,7 @@
     font-weight: 400;
     color: var(--color-secondary);
 }
+.recaptcha {
+    display: flex;
+    justify-content: center;
+}
